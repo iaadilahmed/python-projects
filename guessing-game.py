@@ -6,13 +6,12 @@ attempts = 1
 while comp_pick != guess:
     Difference = abs(comp_pick - guess)
     print("Wrong")
-    print(comp_pick)
     if Difference <= 3:
         print("Extremely close🔥")
     elif Difference <= 9:
         print("close")
     elif Difference <= 20:
-        print("High")
+        print("Near")
     elif guess > comp_pick:
         print("Very high")
     else:
